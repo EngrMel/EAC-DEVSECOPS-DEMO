@@ -9,4 +9,4 @@ def home():
 @app.route("/profile")
 def profile():
     name = request.args.get("name")
-    return f"<h1>Welcome {name}</h1>"
+    return f"<h1>Welcome EAC {name}</h1>"
